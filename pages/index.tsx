@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Simple QR Code Generator</title>
-        <meta name="description" content="A simple QR code generator." />
+        <meta name="description" content="Just a simple QR code generator. No ads, accounts, or paywalls." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
