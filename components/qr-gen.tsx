@@ -43,8 +43,8 @@ export const QRGenerator: React.FC<{}> = () => {
   const [svgData, setSvgData] = useState<string | null>(null)
 
 
-  // Generate SVG
-  const generateQRCode = () => {
+  // Regenerate SVG when variables change for preview reasons
+  useEffect(() => {
     QRCode.toString(inputString, { errorCorrectionLevel: errorCorrectionLevel, type: "svg", color: { dark: foregroundColor, light: backgroundColor } })
       .then((svgData: string) => {
         setSvgData(svgData)
@@ -52,11 +52,7 @@ export const QRGenerator: React.FC<{}> = () => {
       .catch((err: any) => {
         setSvgData(null)
       })
-  }
-
-  // Regenerate SVG when variables change for preview reasons
-  useEffect(() => generateQRCode(), [inputString, errorCorrectionLevel, foregroundColor, backgroundColor])
-
+  }, [inputString, errorCorrectionLevel, foregroundColor, backgroundColor])
 
   // Download the already-generated SVG data
   const downloadSVG = () => {
