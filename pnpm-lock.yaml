@@ -14,6 +14,7 @@ specifiers:
   framer-motion: ^10.12.2
   luxon: ^3.3.0
   next: 13.3.0
+  pnpm: ^8.2.0
   qrcode: ^1.5.1
   react: 18.2.0
   react-colorful: ^5.6.1
@@ -43,6 +44,7 @@ dependencies:
 devDependencies:
   '@types/luxon': 3.3.0
   '@types/qrcode': 1.5.0
+  pnpm: 8.2.0
 
 packages:
 
@@ -3284,6 +3286,12 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
     dev: false
+
+  /pnpm/8.2.0:
+    resolution: {integrity: sha512-f2/abl6GycxLgVZQtWA2zBJKMXcv2L86HGRwJ4qnS02gVzLgtFegC25qWKFtUunCY74GUwxq2A7yGAJEyOuCYg==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: true
 
   /postcss/8.4.14:
     resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==}
