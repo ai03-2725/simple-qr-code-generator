@@ -10,6 +10,7 @@ export const Footer: React.FC<{}> = () => {
         <Text>Just a simple QR code generator.</Text>
         <Text>No account registration, ads, paywalls for SVG download, or other similar absurdity.</Text>
         <Text mt={4}>Uses <a href="https://github.com/soldair/node-qrcode">node-qrcode</a> to generate the QR code. The full source code is available <a href="https://github.com/ai03-2725/simple-qr-code-generator">here</a>.</Text>
+        <Text>This is an open-source project licensed under the <a href="https://github.com/ai03-2725/simple-qr-code-generator/blob/main/LICENSE">MIT license</a>, and does not come with any sort of guarantees, support, or warranties.</Text>
       </Container>
     </Flex>
   )

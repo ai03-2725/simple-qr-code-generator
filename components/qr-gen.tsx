@@ -78,7 +78,6 @@ export const QRGenerator: React.FC<{}> = () => {
         typeString = "image/webp"
         break
       }
-
     }
     QRCode.toDataURL(inputString, { type: typeString, errorCorrectionLevel: errorCorrectionLevel, scale: scale, color: { dark: foregroundColor, light: backgroundColor } })
       .then((imageUrl: string) => {
