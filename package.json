@@ -9,14 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "framer-motion": "^10.12.2",
+    "luxon": "^3.3.0",
     "next": "13.3.0",
+    "qrcode": "^1.5.1",
     "react": "18.2.0",
+    "react-colorful": "^5.6.1",
     "react-dom": "18.2.0",
+    "react-inlinesvg": "^3.0.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.3.0",
+    "@types/qrcode": "^1.5.0"
   }
 }
